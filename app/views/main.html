@@ -1,0 +1,20 @@
+<div class="hero-unit">
+  <h3>Welcome to Chippewa Valley Code Camp!</h3>
+  <p>The following are the speakers today:</p>
+  <div ui-sortable>
+	  <p ng-repeat="speaker in speakers">
+	  	<input type="text" ng-model="speaker">
+	  	<a class="btn" ng-click="removeSpeaker($index)">X</a>
+	  </p>
+  </div>
+
+  <form ng-submit="addSpeaker()">
+	 <div class="controls form-inline">
+	  	<input type="text" ng-model="speaker">
+	  	<input type="submit" class="btn btn-primary" value="Add">
+
+	 </div>
+  </form>
+
+  <h3>Have fun!</h3>
+</div>
