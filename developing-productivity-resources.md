@@ -43,4 +43,10 @@ Tools
 Audience Suggestions
 ------
 
--
+- Sub - 37 Signals
+- If working on multiple clients, apps, languages, platforms, etc, spend time focusing on one at a time rather than flipping back and forth.
+- Alfred
+- Launchy
+- Spotlight
+- Chocolatey - win
+- Use a VM or USB with installed software if company doesn't allow downloads/installs.

@@ -6,7 +6,15 @@
 // it
 // expect
 
+describe("The Controller", Controller(){
+  beforeEach(module('module'));
+  it("should do something awesome", function(){
+    Controller
 
+
+    
+  });
+});
 
 describe('Controller: MainCtrl', function () {
 
